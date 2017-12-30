@@ -1,5 +1,5 @@
-# DO NOT UPGRADE alpine until https://bugs.alpinelinux.org/issues/7372 is fixed
-FROM openjdk:8u121-jdk-alpine
+# DO NOT UPGRADE openjdk-8-jdk until https://bugs.alpinelinux.org/issues/7372 is fixed
+FROM openjdk:8u121-jdk
 
 RUN apt-get update -qq
 RUN apt-get -y install bash
