@@ -19,7 +19,7 @@ sudo apt-get purge docker-ce
 
 sudo rm -rf /var/lib/docker
 
-echo ##### Install the latest docker on Debian:
+echo ##### Install the latest docker on debian
 
 curl -sSL https://get.docker.com/ | sudo sh
 
